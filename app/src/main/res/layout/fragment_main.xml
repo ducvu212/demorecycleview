@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="#ffffff"
+    android:id="@+id/frameLayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <Button
+        android:id="@+id/button_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_144"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/linear"
+        android:textAllCaps="false"
+        android:textSize="@dimen/sp_16"
+        />
+
+    <Button
+        android:id="@+id/button_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/grid"
+        android:textAllCaps="false"
+        android:textSize="@dimen/sp_16"
+        />
+
+    <Button
+        android:id="@+id/button_stagged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/dp_144"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/stagged"
+        android:textAllCaps="false"
+        android:textSize="@dimen/sp_16"
+        />
+
+</FrameLayout>
